@@ -1,0 +1,37 @@
+[package]
+name = "tutus_nodus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bs58 = "0.5.1"
+chrono = { version = "0.4.37", features = ["serde"] }
+config = "0.14.0"
+dotenv = "0.15.0"
+fern = { version = "0.6.2", features = ["colored"] }
+log = "0.4.21"
+serde = { version = "1.0.197", features = ["derive"] }
+clap = { version = "4", features = ["derive", "env"] }
+serde_json = "1.0"
+futures-util = "0.3.30"
+bytemuck = "1.15.0"
+borsh = "1.4.0"
+hex = "0.4.3"
+uint = "0.9.5"
+tokio = { version = "1.37.0", features = ["full"] }
+reqwest = { version = "0.12.5", features = ["json", "stream", "socks"] }
+thiserror = "1.0.61"
+axum = { version = "0.7", features = ["ws"] }
+http-body-util = "0.1.2"
+tower = "0.4.13"
+anyhow = "1.0"
+futures = "0.3.30"
+tokio-tungstenite = "0.23.1"
+tower-http = "0.5.2"
+bytes = "1.7.1"
+axum-test = "15.3.0"
+wiremock = "0.6.1"
+once_cell = "1.19.0"
+strum = { version = "0.26.3", features = ["derive"] }
+strum_macros = "0.26.4"
+async-trait = "0.1.81"

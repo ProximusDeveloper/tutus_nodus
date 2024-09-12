@@ -1,0 +1,4 @@
+http_server_address: 0.0.0.0:8888
+node_list_path: ./config/nodes_list.json
+proxy_is_enabled: true
+proxy_list_path: ./config/proxies_list.json

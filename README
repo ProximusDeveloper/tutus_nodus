@@ -1,0 +1,5 @@
+Simple Proxy-Nodes-Manager
+
+This is a simple proxy-nodes-manager written in Rust. It is designed to be used as a proxy for a set of nodes. It can be used to load balance requests between the nodes.
+
+I am use it to work with Solana chain without any problems.

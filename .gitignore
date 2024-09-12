@@ -1,0 +1,4 @@
+/target
+/logs/*
+/config/nodes_list.json
+/config/proxies_list.json
